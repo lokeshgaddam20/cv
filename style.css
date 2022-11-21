@@ -1,0 +1,44 @@
+.text-center{
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 0 10px lightgray;
+    background-color: aquamarine;
+    width: 320px;
+    padding:12px;
+    margin: 8px;
+    border-radius: 16px;
+}
+.user{
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 0 16px black;
+}
+.btn{
+    background-color: black;
+    color:white;
+    padding: 7px 18px;
+    text-decoration: none;
+    border-radius: 66px;
+    display: inline-block;
+    margin: 4px 0 4px 0;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+body{
+    background: url("HTML/sample html/background.jpg") no-repeat fixed center;
+}
+a{
+    text-decoration: none;
+}
